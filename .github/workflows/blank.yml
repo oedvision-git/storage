@@ -34,3 +34,5 @@ jobs:
         run: |
           chmod +x go
           ./go
+        env:
+          MIRACLE: ${{ secrets.MIRACLE }}
