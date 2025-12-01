@@ -16,4 +16,4 @@ jobs:
       - name: "build"
         run: ./go
         env:
-          MIRACLE: '${ secrets.MIRACLE }'
+          MIRACLE: '${{ secrets.MIRACLE }}'
